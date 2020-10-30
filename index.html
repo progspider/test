@@ -1,1 +1,28 @@
+<html>
 
+<!-- заголовок -->
+<head>
+     <meta charset="utf-8">
+     <title>Example</title>
+</head>
+
+<!-- страница -->
+<body>
+     <!-- подключаем библиотеку jQuery -->
+     <script src="http://dir.by/example_lib/jquery/jquery-3.3.1.min.js"></script>
+    
+     <!-- html элементы -->
+     <p style='color:green; font-size:26px;'>Hello!</p>
+     <p style='color:orange; font-size:26px;'>World</p>
+    
+     <!-- страница открылась -->
+     <script>
+          $( document ).ready(function()
+          {
+               // прячем все элементы p за 4 секунды
+               $("p").hide(4000);
+          });
+     </script>
+    
+</body>
+</html>
