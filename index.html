@@ -1,28 +1,15 @@
 <html>
-
-<!-- заголовок -->
 <head>
-     <meta charset="utf-8">
-     <title>Example</title>
+<script type="text/javascript">
+function show_alert()
+{
+alert("Привет! Я сигнальное окно!");
+}
+</script>
 </head>
-
-<!-- страница -->
 <body>
-     <!-- подключаем библиотеку jQuery -->
-     <script src="https://dir.by/example_lib/jquery/jquery-3.3.1.min.js"></script>
-    
-     <!-- html элементы -->
-     <p style='color:green; font-size:26px;'>Hello!</p>
-     <p style='color:orange; font-size:26px;'>World</p>
-    
-     <!-- страница открылась -->
-     <script>
-          $( document ).ready(function()
-          {
-               // прячем все элементы p за 4 секунды
-               $("p").hide(4000);
-          });
-     </script>
-    
+
+<input type="button" onclick="show_alert()" value="Показать сигнальное окно" />
+
 </body>
 </html>
