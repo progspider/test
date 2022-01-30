@@ -1,0 +1,10 @@
+https://habr.com/ru/post/60347/ Git Wizardry
+https://proglib.io/p/git-for-half-an-hour Git за полчаса: руководство для начинающих
+https://habr.com/ru/company/playrix/blog/350492/ Git: советы новичкам – часть 3
+
+
+
+Это, в самом начале делать:
+
+  git config --global user.email "pingvinkin@gmail.com"
+  git config --global user.name "progspider"
