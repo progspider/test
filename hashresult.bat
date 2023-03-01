@@ -1,1 +1,0 @@
-certutil -hashfile F:\UDALIT\1\3.png SHA1 > hashresult.txt
